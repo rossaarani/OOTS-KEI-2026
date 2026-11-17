@@ -1,42 +1,37 @@
-export type Project = {
-	title: string;
-	description: string;
-	stack: string;
-	year: number;
-	href?: string;
+export const profile = {
+	bio: "Siswa SMK Negeri 8 Semarang jurusan Rekayasa Perangkat Lunak. Berfokus pada pengembangan antarmuka web yang interaktif, cepat, dan rapi.",
+	facts: [
+		{ label: "STATUS", value: "Siswa RPL · SMK Negeri 8 Semarang" },
+		{ label: "FOKUS", value: "Web Development & UI/UX" },
+		{ label: "LOKASI", value: "Semarang, Jawa Tengah" },
+		{ label: "KONTAK", value: "keishaputriratri@gmail.com" }
+	],
+	skills: ["SvelteKit", "TypeScript", "Tailwind CSS", "JavaScript", "HTML/CSS", "Git"]
 };
 
-export const projects: Project[] = [
+export const projects = [
 	{
-		title: 'Sistem Absensi Kelas',
-		description: 'Aplikasi pencatatan kehadiran siswa dengan rekap otomatis per bulan.',
-		stack: 'SvelteKit',
-		year: 2026,
-		href: 'https://github.com/nama-kamu/absensi'
+		title: "E-Canteen",
+		category: "WEB APPLICATION",
+		year: "2026",
+		description: "Platform pemesanan makanan kantin sekolah berbasis web yang mempercepat transaksi dan meminimalisir antrean.",
+		tech: ["SvelteKit", "Tailwind CSS", "TypeScript"],
+		link: "https://github.com/kekukies"
 	},
 	{
-		title: 'Landing Page UKM',
-		description: 'Halaman profil organisasi sekolah dengan formulir pendaftaran anggota.',
-		stack: 'Tailwind',
-		year: 2026,
-		href: 'https://github.com/nama-kamu/ukm'
+		title: "JagaCuan",
+		category: "FINANCE APP",
+		year: "2025",
+		description: "Aplikasi pencatatan tabungan dan keuangan harian yang dirancang untuk membantu mengelola anggaran secara praktis.",
+		tech: ["JavaScript", "Tailwind CSS"],
+		link: "https://github.com/kekukies"
 	},
 	{
-		title: 'Dashboard Jaringan',
-		description: 'Pemantauan status perangkat lab sekolah secara real-time.',
-		stack: 'TypeScript',
-		year: 2026,
-		href: 'https://github.com/nama-kamu/dashboard'
+		title: "Mini Mo Adventure!",
+		category: "GAME DEVELOPMENT",
+		year: "2025",
+		description: "Game platformer petualangan seru dengan rintangan menantang yang dibangun menggunakan Construct 3.",
+		tech: ["Construct 3", "Game Design"],
+		link: "https://github.com/kekukies"
 	}
 ];
-
-export const profile = {
-	bio: 'Saya suka membangun hal yang berguna dan terlihat rapi. Saat ini belajar SvelteKit dan TypeScript, sambil mengerjakan proyek kecil untuk sekolah dan komunitas.',
-	facts: [
-		{ label: 'FOKUS', value: 'Antarmuka web & sistem informasi' },
-		{ label: 'STACK', value: 'SvelteKit · TypeScript · Tailwind' },
-		{ label: 'LOKASI', value: 'Indonesia' },
-		{ label: 'STATUS', value: 'Terbuka untuk kolaborasi' }
-	],
-	skills: ['HTML', 'CSS', 'JavaScript', 'SvelteKit', 'Tailwind', 'Git']
-};

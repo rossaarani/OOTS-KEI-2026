@@ -8,25 +8,27 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-	--bg: #fcfcfa;
-	--surface: #f4f4f1;
-	--line: #e2e2dc;
-	--ink: #12120f;
-	--muted: #6b6b62;
-	--primary: #1d3fd1;
-	--on-primary: #fcfcfa;
+	/* Palet Sage Bloom (Light Mode) */
+	--bg: #fee3e8;        /* Cream/Pink muda lembut */
+	--surface: #f9c7d2;   /* Pink pastel untuk card/surface */
+	--line: #e8b4b8;      /* Garis pembatas lembut */
+	--ink: #5b3f3e;       /* Cokelat gelap untuk teks utama agar mudah dibaca */
+	--muted: #8e7c7a;     /* Cokelat keabuan untuk teks sekunder */
+	--primary: #6b7a2f;   /* Sage Green utama */
+	--on-primary: #ffffff;
 	--success: #047857;
 	--danger: #b91c1c;
 }
 
 .dark {
-	--bg: #0c0c0b;
-	--surface: #161615;
-	--line: #2b2b27;
-	--ink: #edece4;
-	--muted: #9c9c90;
-	--primary: #8aa4ff;
-	--on-primary: #0c0c0b;
+	/* Palet Sage Bloom (Dark Mode yang elegan) */
+	--bg: #2c2424;        /* Cokelat tua gelap hangat */
+	--surface: #3d3030;   /* Surface gelap bernuansa pink/cokelat */
+	--line: #4f3f3f;      /* Garis pembatas gelap */
+	--ink: #fee3e8;       /* Teks terang */
+	--muted: #c4a4a6;     /* Teks sekunder terang */
+	--primary: #a7b58c;   /* Sage Green terang untuk mode gelap */
+	--on-primary: #2c2424;
 	--success: #6ee7a0;
 	--danger: #fb8a8a;
 }
